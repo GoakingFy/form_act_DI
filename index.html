@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+        <div class="container_personal_info">
+            <label for="inp_name">Nombre<span>*</span></label>
+           <input class="inp " type="text" name="" id="inp_name" placeholder="Introduzca su nombre" required>
+           <label for="inp_subname">Apellido <span>*</span></label>
+           <input class="inp " type="text" name="" id="inp_subname" placeholder="Introduzca su apellido" required>
+           <label for="inp_cp">Codigo postal <span>*</span></label>
+           <input class="inp " type="number" name="" id="inp_cp" placeholder="Introduza su Codigo Postal" required>
+        </div>
+
+        <div class="container_acces_user">
+            <label for="inp_nick_user">Nick <span>*</span></label>
+            <input type="text" id="inp_nick_user" placeholder="Introduzca en nombre de usuario" required>
+            <label for="inp_email">Direccion de E-mail <span>*</span></label>
+            <input type="email" name="" id="inp_email" placeholder="Introduzca su dirección de E-mail" required>
+            <label for="inp_pass">Contraseña <span>*</span></label>
+            <input type="password" name="" id="inp_pass" placeholder="Minimo 8 caractéres. Debe incluir números y mayúsculas" required>
+            <label for="inp_rep_pass">Repetir Contraseña <span>*</span></label>
+            <input type="password" name="" id="inp_rep_pass" placeholder="Vuelva a introducir la contraseña" required>
+            <input type="checkbox" name="" id="inp_check_condition">
+            <label for="inp_check_condition">Acepto las <a href="#">condiciones de uso</a></label>
+            <input type="checkbox" name="" id="inp_check_politi">
+            <label for="inp_check_politi">Acepto las <a href="#">Politicas de privacidad</a></label>
+        </div>
+
+        <label for="inp_addres">Direccion</label>
+        <input type="text" name="" id="inp_addres" placeholder="Introduzca su dirección">
+
+        <div class="container_info_addres">
+            <label for="inp_localidad">Localidad</label>
+            <input type="text" name="" id="inp_localidad" placeholder="Introduzca su localidad">
+            <label for="datalist_provincia">Provincia</label>
+            <input list="provincia" id="datalist_provincia" name="" placeholder="Selecciona una provincia"/>
+
+            <datalist id="provincia">
+                <option value="Sevilla"></option>
+                <option value="Cordoba"></option>
+                <option value="Huelva"></option>
+                <option value="Jaén"></option>
+                <option value="Málaga"></option>
+                <option value="Almeria"></option>
+                <option value="Cádiz"></option>
+            </datalist>
+        
+            <label for="inp_tlf">Telefono</label>
+            <input type="tel" name="" id="inp_tlf" placeholder="Introduzca su telefono">
+            <label for="inp_dni">DNI</label>
+            <input type="text" name="" id="inp_dni" placeholder="Introduzca su DNI">
+
+            <label for="datalist_diario">Diario habitual</label>
+<input list="diario" id="datalist_diario" name="" placeholder="Selecciona un diario"/>
+
+            <datalist id="diario">
+                <option value="Sevilla"></option>
+                <option value="Cordoba"></option>
+                <option value="Huelva"></option>
+                <option value="Jaén"></option>
+                <option value="Málaga"></option>
+                <option value="Almeria"></option>
+                <option value="Cádiz"></option>
+            </datalist>
+
+            <label for="inp_intereses">Intereses</label>
+            <input type="search" name="" id="inp_intereses" placeholder="0 seleccionados">
+        </div>
+
+        <div class="container_checkbox">
+            <label for="inp_check_condition">Acepto las </label>
+            <input type="checkbox" name="" id="inp_check_politi">
+            <label for="inp_check_condition">Acepto las </label>
+            <input type="checkbox" name="" id="inp_check_politi">
+            <label for="inp_check_condition">Acepto las </label>
+            <input type="checkbox" name="" id="inp_check_politi">
+            <label for="inp_check_condition">Acepto las </label>
+            <input type="checkbox" name="" id="inp_check_politi">
+        </div>
+    </form>
+</body>
+</html>
